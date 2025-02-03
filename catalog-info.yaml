@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Amplication-backstage-tryout
+  description: 
+  labels:
+    vendor: "amplication"
+  annotations:
+    github.com/team-slug: "backstage/maintainers"
+    github.com/project-slug: "backstage/backstage"
+  tags:
+    - ".NET"
+  links:
+    - url: https://server.amplication-sandbox.com/cm6owlbj50006epicbkj0y98i
+      title: Amplication Platform
+spec:
+  type: service
+  lifecycle: production
+  owner: development
